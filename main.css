@@ -1,0 +1,588 @@
+*{
+	scroll-behavior: smooth;
+	
+}
+
+body{
+	margin: 0;
+	padding: 0;font-family: 'Nanum Gothic', sans-serif;
+	}
+
+.nav-sec{
+	position:fixed;
+	
+	top: 0;
+	height: 100px;
+	width: 100%;
+	  z-index: 3;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color:black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.closebtn{
+	font-size: 2.5em!important;
+	margin-left: 150px;
+}
+.sidenav a {
+  padding: 15px 8px 15px 32px;
+display: block;
+  color: white;
+ 
+  font-size: 1em;
+	letter-spacing: 3px;
+	font-weight: 400;
+	font-family: 'Nunito Sans', sans-serif;
+  position: relative;
+	text-decoration: none;
+	transition: color .4s ease-out;
+}
+
+
+
+.sidenav a:hover {
+  color: #f58b54;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+
+\
+
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  background-color: black!important;
+  width: 100%;
+}
+
+.main-nav{
+	position: absolute;
+	width:  100vw;
+	height: 100px;
+}
+.main-nav .nav-head{
+	position: absolute;
+	margin-left: 40%;
+	margin-top:-50px;
+}
+
+.main-nav h1{
+	font-size: 2.2em;
+	letter-spacing: 5px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+
+	
+}
+
+ .nav-span{
+  font-size: 1.2em !important;
+  color: gray;
+ 
+}
+.search-icon{
+	position:relative;
+	margin-left: 90%;
+	margin-top: -50px;
+}
+
+.sec1{
+	position: relative;
+	margin-top: 10%;
+	background-color: gray;
+	width: 100vh;
+}
+
+
+
+.searchBox {
+    position: absolute;
+   margin-left: 80%;
+    margin-top: -60px;
+    transform:  translate(-50%,50%);
+    background: black;
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+
+
+.searchBox:hover > .searchInput {
+    width: 200px;
+    padding: 0 6px;
+    transform: translateY(30px);} 
+@media screen and (min-width: 330px){
+.searchBox:hover > .searchInput  {
+	width: 100px!important;
+}}
+.searchBox input:focus{
+	 width: 200px;
+    padding: 0 6px;
+}
+@media screen and (min-width: 330px){
+
+.searchBox input:focus{
+	width: 100px !important;
+}
+}
+.searchBox:hover > .searchButton {
+ 
+  color :#f58b54;
+}
+
+.searchButton {
+    
+    float: right;
+    text-align: center;
+    margin-top: -2px;
+    border: none;
+    border-radius: none;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    border:none;
+   background-color: black;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 0px;
+
+}
+
+
+.quoteof{
+	position: relative;
+	margin-top: 10%;
+	
+
+}
+
+.quoteof .quotehead{
+	font-size: 4em;
+	margin-left: 5%;
+	letter-spacing: 5px;
+	margin-bottom: 70px;
+	width: 350px;
+	text-decoration: none;
+	border-bottom: 5px solid  #f58b54 ;
+}
+
+.quoteof q{
+	font-size: 1.5em;
+	color: black;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-transform: capitalize !important;
+}
+.sec2{
+	position: relative;
+	margin-left: 5%;
+	margin-top: 10%;
+	z-index: 1;
+	
+}
+
+.sec2 .newpost{
+	font-size: 4em;
+	letter-spacing: 5px;
+	margin-bottom: 70px;
+	width: 200px;
+	text-decoration: none;
+	border-bottom: 5px solid  #f58b54 ;
+	
+}
+
+.post h2{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: black;
+	letter-spacing: 2px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.post a h2:hover{
+	color:  #f58b54;
+	transition: 0.5s;
+	text-decoration: none;
+}
+.post .btn1{
+	background-color:  #f58b54;
+	font-size: 1em;
+}
+.post .btn1:hover{
+	background-color:  #000;
+	font-size: 1em;
+	color: #f58b54;
+	transition: 0.8s;
+}
+
+.post{
+	padding: 50px;
+}
+
+.load{
+	
+	margin-top: 5px;
+
+}
+.load a{
+	color: black;
+	font-size: 1.3em;
+	letter-spacing: 5px;
+	text-decoration: none;
+	margin-left: 45%;
+	border-bottom: 2px solid black;
+	right: 100%;
+}
+.load a:hover{
+	color:  #f58b54;
+	transition: 0.5s;
+	right: 0%;
+	text-decoration: none;
+}
+
+/*sec3*/
+
+.sec3{
+	position: relative;
+	margin-top: 8%;
+	padding: 0;
+
+}
+
+.sec3 .bookheader{
+	margin-left: 5%;
+	font-size: 4em;
+	letter-spacing: 5px;
+	margin-bottom: 70px;
+	width: 500px;
+	text-decoration: none;
+	border-bottom: 5px solid  #f58b54 ;\
+	font-family: 'Montserrat', sans-serif;
+}
+
+.sec3 a{
+	text-decoration: none;
+	color: black;
+}
+
+.sec3 a:hover{
+	text-decoration: none;
+	color: #f58b54 ;
+	transition: all 0.5s;
+}
+.sec3 a h6{
+	color: #f58b54!important;
+}
+
+.sec3 a h6:hover{
+	color: black !important;
+	text-decoration: underline;
+ transition: all 0.5s;
+}
+
+/*sec4*/
+
+.sec4{
+	position: relative;
+	margin-top: 9%;
+	width: 100%;
+	height: 900px;
+
+}
+
+.ournews{
+	margin-bottom: 30px; 
+	margin-left: 5%;
+	font-size: 4em;
+
+	letter-spacing: 5px;
+	margin-bottom: 70px;
+	width: 700px;
+	text-decoration: none;
+	border-bottom: 5px solid  #f58b54 ;\
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.newsimg h3{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size:  2.5em;
+	color: black;
+	}
+.newsform{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.form input:nth-child(1){
+	width: 300px;
+background-color: white;
+border-radius: 10px;
+border-bottom: 2px solid black !important;
+outline: none;border: none;
+overflow: hidden;
+height: 50px;
+color: black;
+text-transform: uppercase;
+margin-bottom:10px;
+text-align: center;
+}
+.form input:nth-child(2){
+	width: 100px;
+background-color: white;
+border-radius: 10px;
+border-bottom: 2px solid black !important;
+outline: none;border: none;
+overflow: hidden;
+height: 50px;
+color: black;
+text-transform: uppercase;
+margin-bottom:10px;
+text-align: center;
+font-size: 0.80em;
+}
+
+.form textarea{
+	width: 400px;
+background-color: white;
+border-radius: 10px;
+border-bottom: 2px solid black !important;
+outline: none;border: none;
+overflow: hidden;
+height: auto;
+color: black;
+text-transform: uppercase;
+margin-bottom:10px;
+text-align: center;
+
+
+
+}
+
+.form input:focus , .form textarea:focus{
+	color: #f58b54;
+	background-color: #3a3a3a;
+	transition: all 0.5s;
+}
+
+.form .newlink{
+	color: gray;
+	background-color: white;
+	border-radius: 20px;
+	padding:10px 40px;
+	font-synthesis: 1.2em;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 5px;
+}
+
+.form .newlink:hover{
+	background-color: black;
+	color: #f58b54;
+	transition: 0.5s;
+}
+
+footer .footerhead h2{
+	position: relative;
+border-bottom: 5px solid  #f58b54 ;
+text-transform: uppercase;
+letter-spacing: 5px;
+padding-bottom: 20px;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+footer .social{
+	margin-top: 30px;
+	
+
+}
+
+footer .social a i{
+	font-size: 3.5em!important;
+	color: black;
+	margin-bottom: 20px;
+	margin-right:50px!important ;
+}
+
+footer .social a i:hover{
+	color: #f58b54;
+	transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px){
+	.quoteof{
+	position: relative;
+	margin-top: 15%;
+	
+
+}
+.post p{
+	font-size: 1.3em;
+}
+.sec3 a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.2em;
+}
+.sec3 p{
+	font-size: 1.1em;
+}
+.sec4 .newsimg .form{
+	margin-top: -50px;
+}
+footer{
+	margin-top: -150px;
+}
+}
+
+
+@media screen and (max-width: 575px){
+	.main-nav h1{
+	font-size: 1.5em;
+	letter-spacing: 5px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: -40px;
+
+	
+}
+
+ .nav-span{
+  font-size: 1em !important;
+  color: gray;
+ margin-left: -40px;
+}
+.quoteof q{
+	font-size: 20px!important;
+}
+.searchBox {
+    position: absolute;
+   margin-left:90%;
+    margin-top: -60px;
+    transform:  translate(-50%,50%);
+    background: black;
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px;
+
+} 
+.searchbox .searchButton img{
+	width: 20px;
+}
+.searchBox:hover > .searchInput {
+    width: 70px!important;
+    padding: 0 6px;
+    transform: translateX(-30px);(30px);} 
+    .searchBox input:focus{
+	 width: 70px!important;
+    padding: 0 6px;
+}
+.quoteof{
+	position: relative;
+	margin-top: 25%;
+	
+
+}
+.book{
+	margin-bottom: 50px;
+}
+
+.sec3 .bookheader h2{
+	font-size: 25px;
+}
+.post p{
+	font-size: 1.3em;
+}
+.sec3 a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.2em;
+}
+.sec3 p{
+	font-size: 1.4em;
+}
+.sec4 .ournews{
+	width: 400px;
+}
+.sec4 .ournews h2{
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+.sec4 .newsimg .form{
+	margin-top: 170px;
+}
+.sec4 .newsimg h3{
+	font-size: 40px;
+	
+}
+
+
+.form input:nth-child(1), .form input:nth-child(2) , .form textarea{
+	background-color: lightgray; 
+
+}
+footer{
+	margin-top: -150px;
+}
+footer .footerhead{
+	font-size: 25px!important;
+}
+footer .social a i{
+	font-size: 25px!important;
+}
+footer .social a i:hover{
+	color: #f58b54;
+	transition: 0.5s;
+}
+
+}
